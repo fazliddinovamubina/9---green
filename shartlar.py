@@ -1,9 +1,10 @@
 import random
-ism=["sarvinoz","hadicha","naima","rahima","mohloroy","mubina","oydin","zinnur","muhammadyusuf","abdulahad"]
+ism=["sarvinoz","hadicha","naima","rahima","mohloroy","mubina","oydinA","OYDINA MAMADOVA ", "zinnur","muhammadyusuf","abdulahad"]
 
 shartlar=["suv olib kelish","presidaniya qilish 20 ta ","rus tilidan vazifa qilish ","honani tazolaydi  ",
 "lyuboy bitta odamdan telefon raqam olish tanishladan tashqari  ","hadichani urib kelish ","","1 kun ovqat yemaslik",
-"It imtihondan 0 bal olish "," choralik imtihondan otmaslik"]
+"It imtihondan 0 bal olish "," choralik imtihondan otmaslik", " hamma fandan yaxshi baholarga oqish ", " 1 kun telefonsiz yashash",
+" instagram parolini aytish "]
 
 print(ism[random.randrange(0,len(ism))])
 
