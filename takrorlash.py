@@ -148,6 +148,145 @@
 # elif natija<=65 and natija>=100:
 #     print("imtihondan otdi: ")
 
+# # Kod: 9G001
+# # 9 Green sinfi uchun haftalik(13-09-24) imtihon savollari
+# # 1-	Mashq | 5 Ball
+# # Bir vaqtni o’zida 4 ta o’zgaruvchi yarating(Bu ishni bir qatorda bajarish zarur !). Hamda o’zgaruvchilarni konsulga chiqaring.
+# a, b, c,x= "alma","behi","anor","asal"
+# print(a,b,c,x)
+
+# # 2-	Mashq | 5 Ball |  Ushbu matinni konsulga chiqaring:
+# # “Ahmadning “yuvvosh” mushugi meni ko’rsa, doim yugurib keladi.”
+# print("ahmadning “yuvvosh”  mushugi meni korsa doim yugurib keladi ")
+
+
+# # 3-	Mashq | 5 Ball | Misolni pyhtonda bajaring:
+# # 93434 ga 94903 ni qoshing, hosil bo’lgan natijadaan 22344 ni ayring va unga 7363 ni qo’shing
+# print(93434+94903-22344+7363)
+
+# #  4-	Mashq | 10 Ball
+# # Ism, yosh, manzil, maktab, sinf deb nomlangan o’zgaruvchilar yarating va ularni konsulga f”” yordamida chiqaring.
+
+# ism="mubina"
+# yosh="14"
+# manzil="oromgoh"
+# maktab="BM"
+# sinf="9-green"
+# print(f"ismim {ism} yoshi {yosh} manzilim {manzil} maktab {maktab} sinfim {sinf}")
+
+
+
+# # 5-	Mashq | 10 Ball
+# # Name, surname deb nomlangan o’zgaruvchilar yarating va ularni yangi full_name 
+# # deb nomlangan o’zgaruvida jamlang. Hamda full_name deb nomlangan o’zgaruvchining 
+# # qiymatini ba’zi metodlar ishlatgan holda barcha hariflarini kichhik qilib konsulga chiqaring.
+
+# name="mubina"
+# surname=" fazliddinova"
+# print(name , surname)
+
+# """ 1mashq"""
+# y = int(input("yosh kirt:"))
+# yil =2024
+# print(yil-y+10)
+
+"""2 mashq"""
+# #1
+# from math import sqrt
+# print(round((23+(sqrt(9876))**2)/21),3)
+# #2
+# x=int(input("x kiriting"))
+# y = 4*(x-3)**5-7(x-3)**3+2
+# print(y)
+# #3
+# son = int(input("son kiriting:"))
+# son1 = int(input("son kiriting:"))
+# import random
+# print(random.randrange(son,son1))
+# #4
+# s = int(input("son kiriting:"))
+# a = int(input("son kiriting:"))
+# n = int(input("son kiriting:"))
+# k = int(input("son kiriting:"))
+# print(round((s**a)/n),k)
+#5
+
+
+# """ 3 mashq """
+# bozorlik=[]
+# bozorlik.append("olma")
+# bozorlik.append("anor")
+# bozorlik.append("kivi")
+# bozorlik.append("banaa")
+# bozorlik.append("sshaftoli")
+
+# bozorlik.insert(0,"banana")
+# bozorlik.insert(4,"avocado")
+# bozorlik.insert(-1,"uzum")
+# print(bozorlik)
+
+#1
+print("hello ")
+print("men hursandman")
+print("'night has come' bu eng zor kino ")
+print("bu noto'g'ri emas")
+print("before and after")
+#2 
+print("ahmadhon")
+print("mahbubahon")
+print("fazliddin")
+print("mubina")
+print("muhammadamin")
+print("muslima")
+print("hadicha")
+#3
+print("456677")
+print("77777")
+print("665333766")
+#4
+
+"""imtihon tahlili"""
+#1 -mashq   
+# x, y, n,r,= "olma","anor" , "tarvuz", "ruchka"
+# print(x,y,n,r)
+#2- mashq 
+# print("Ahmadning \"yuvvosh\" mushugi meni ko'rsa, doim yugurib keladi")
+ #3-mashq                                                                                                                                                                                        
+# print(93434+94903-22344+7363)
+#4-mashq
+# ism= "Mubina"
+# yosh= "14"
+# manzil= "oromgoh"
+# maktab= "B.M."
+# sinf= "9-green"
+# print(f" ismim {ism} yoshim {yosh} manzilim {manzil} maktabim {maktab} sinfim {sinf}" )
+#5-mashq
+# name="Mubina"
+# surename="Fazliddinova"
+# fullname=f"{name} {surename}"
+# print(fullname.lower())
+#6-mashq
+# gul="  BoyCHeCHak "
+# print(gul.lstrip())
+# print(gul.strip())
+# print(gul.title())
+# print(gul.upper())
+# print(gul.lower())
+
+"""type () funksiyasi """
+# yosh= 34
+# pi= 3.14
+# print(type(ism)) # string--> str--> matn 
+# print(type(yosh)) # integer--> int--> butun son
+# print(type(pi)) # float-->float--> o'nlik son
+
+""" maxsus belgilar"""
+# \ '    ' belgisi ucun 
+#\"       "belgisi uchun
+#\n        yangi qator
+# \b       tab 
+#\b        boshliqni yoqotadi
+
 
 
 

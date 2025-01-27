@@ -263,19 +263,6 @@
 
 
 
-import random 
-
-
-son2=int(input("1 dan 10 gacha son kiriting:😊 "))
-r = random.randrange(1,10)
-if son2==r:
-    print(f" {r}  edi tabriklaymiz siz togri son topdngiz!🙉")
-else:
-    print(f"{r} edi topolmadingiz alam qilsin...😁🤪👎")
-
- 
-
-
 
 
 
