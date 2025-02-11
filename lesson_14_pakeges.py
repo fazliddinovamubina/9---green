@@ -119,24 +119,19 @@ foydalanuvchi = otgan_kunlar( yil, oy, kun )
 print( foydalanuvchi)
 
 
+import datetime 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(datetime.datetime.now())
+hozir = datetime.datetime.now()
+print(hozir.year)
+print(hozir.month)
+print(hozir.weekday())
+print(hozir.day)
+print(hozir)
+print(hozir.hour)
+print(hozir.minute)
+print(hozir.second)
+print(hozir.microsecond)
 
 
 
