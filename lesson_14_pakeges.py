@@ -118,7 +118,7 @@ import datetime
 # foydalanuvchi = otgan_kunlar( yil, oy, kun )
 # print( foydalanuvchi)
 
-# 
+
 # import datetime 
 # 
 # print(datetime.datetime.now())
@@ -133,26 +133,144 @@ import datetime
 # print(hozir.second)
 # print(hozir.microsecond)
 
-
-
-import datetime
+# import datetime
 
  
-bugun = datetime.date.today()
+# bugun = datetime.date.today()
 
-oy = int(input("Oy kiriting: "))
-kun = int(input("Kun kiriting: "))
+# oy = int(input("Oy kiriting: "))
 
-sana1 = datetime.date(bugun.year, oy, kun)
-sana2 = datetime.date(bugun.year+1, oy, kun)
+# sana1 = datetime.date(bugun.year, oy, kun)
+# sana2 = datetime.date(bugun.year+1, oy, kun)
+# 
+# if sana1 > bugun:
+    # print(f"Sizning tug'ilgan kuningizga {(sana1-bugun).days} kun qoldi.")
+# elif sana1 < bugun:
+    # print(f"Sizning tug'ilgan kuningizga {(sana2-bugun).days} kun qoldi.")
+# 
+# else:
+    # print(f"Siz bugun tug'ilgan kuningizni nishonlamoqdasiz")  
+    
 
-if sana1 > bugun:
-    print(f"Sizning tug'ilgan kuningizga {(sana1-bugun).days} kun qoldi.")
-elif sana1 < bugun:
-    print(f"Sizning tug'i                                                                lgan kuningizga {(sana2-bugun).days} kun qoldi.")
 
+# kun= int(input("necha kundan keyingi sanani bilmorchisiz  kunni kiriting:  "))
+# sana = bugun + datetime.timedelta(days=kun)
+# print((sana))
+
+
+# link -> https://www.w3schools.com/python/module_math.asp
+# link -> https://docs.python.org/3/library/math.html
+
+# """homework"""
+ 
+# import math
+# print(math.tan(60))  # raqamning tangensini qaytaradi 
+# print(math.sinh(20)) # sonning giperborlik sinusini qaytaradi
+# print(math.cosh(33)) # sonning giperbor
+# print(math.radians(68)) # daraja qiymatini radianga aylantiradi 
+# print(math.atan(22)) #X ning tanjans yoyini qaytarish. Ikkita filial kesilishi mavjud: Biri tasavvur o'qi bo'ylab 1j dan ∞j gacha cho'ziladi. Ikkinchisi tasavvur o'qi bo'ylab -1j dan -∞j gacha cho'ziladi.
+
+
+
+
+
+
+
+
+
+"""  RegEx - regular expression"""
+import re 
+
+
+word1= "phyton"
+word2= "hello"
+word3= "noutbook"
+
+print(re.match("^p....n", word1))
+print(re.match("^h...o", word2))
+print(re.search("b.ook", word3))
+
+ism= input("ismingizni kiriting:  ")
+if re.match("^n",ism):
+    print(f" salom{ism} sizning ismingiz n harfi bilan boshlanadi  ")
 else:
-    print(f"Siz bugun tug'ilgan kuningizni nishonlamoqdasiz")
+    print(f"salom {ism}")
 
-    
-    
+
+
+
+
+
+
+
+
+# """REGEX SHABLON  ""
+# link -> https://docs.python.org/3/howto/regex.html
+# link -> https://docs.python.org/3/library/re.html
+# link -> https://www.w3schools.com/python/python_regex.asp
+
+
+
+shablon="^[+]998[\s]?[0-9]{2}[\s]?[0-9]{3}[\s]?[0-9]{2}[\s]?[0-9]{2}"
+tel=  input(" tel kiriting: ")
+
+if re.match(shablon,tel):
+    print("telefon  nomeringizni togri kiritdingiz ")
+else:
+    print("telefon nomerini qayta kiriting!")
+
+
+matn="""
+    nimadur nimadur okokok@gmail.com
+    efhierwbgbvbeivuvjbh lalala@gmail.com
+    ifhnviuoerhfr4h dsbhvuf@gmail.com
+
+"""
+
+email_andoza= '[^@\t\r\n]+@[^@\t\r\n]+\.[^@\t\r\n]+'
+email=re.findall(email_andoza,matn)
+print(email)
+
+
+
+
+"""
+findall()-- barcha mosliklarni oz ichiga olgan royxatni qaytaradi 
+search()--- agar satrning istalgan joyida moslik mavjud bolsa  match obyektini qaytaradi 
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
